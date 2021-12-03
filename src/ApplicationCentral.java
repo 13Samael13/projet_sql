@@ -110,7 +110,7 @@ class ApplicationCentral {
         System.out.println("Entrez le nom de l'ue");
         String nom = sc.nextLine();
         System.out.println("Entrez son bloc");
-        Integer bloc = Integer.valueOf(sc.nextLine());
+        Integer bloc = boucleintTesteur();
         System.out.println("Entrez son nombre credit");
         Integer nbCredit = boucleintTesteur();
         System.out.println("Entrez son code");
