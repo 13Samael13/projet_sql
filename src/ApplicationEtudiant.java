@@ -122,7 +122,7 @@ class ApplicationEtudiant {
 
     private void ajouter_ue_pae() {
         System.out.println("Entrez l'ue à ajouter dans votre pae");
-        String ue = sc.next();
+        String ue = sc.nextLine();
         try {
             ajouter_ue_pae.setString(1, ue);
             ajouter_ue_pae.setString(2, email);
@@ -135,7 +135,7 @@ class ApplicationEtudiant {
 
     private void enlever_ue_pae() {
         System.out.println("Entrez le nom de l'ue à supprimer de votre pae");
-        String nom = sc.next();
+        String nom = sc.nextLine();
         try {
             enlever_ue_pae.setString(1, nom);
             enlever_ue_pae.setString(2, email);
